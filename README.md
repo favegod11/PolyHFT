@@ -41,7 +41,7 @@ npm start
 - `npm run paper` launches the operator flow in paper mode.
 - `npm run backtest` replays the configured market universe through the strategy stack.
 
-The runtime reads market definitions from [`/Users/ale/therunin31mar/Poly_HFT_1/config/base.yaml`](/Users/ale/therunin31mar/Poly_HFT_1/config/base.yaml), hydrates normalized market snapshots, evaluates the active strategy ensemble, and emits a structured execution report to the terminal.
+The runtime reads market definitions from `config/base.yaml`, hydrates normalized market snapshots, evaluates the active strategy ensemble, and emits a structured execution report to the terminal.
 
 ## Environment
 
@@ -60,7 +60,7 @@ The runtime reads market definitions from [`/Users/ale/therunin31mar/Poly_HFT_1/
 
 ## Configuration Surface
 
-The default runtime profile lives in [`/Users/ale/therunin31mar/Poly_HFT_1/config/base.yaml`](/Users/ale/therunin31mar/Poly_HFT_1/config/base.yaml).
+The default runtime profile lives in `config/base.yaml`.
 
 - `app` controls mode, cadence, and console behavior.
 - `strategy` controls entry sizing and pair-cost targeting.
@@ -90,11 +90,11 @@ Example market definition:
 
 ## Execution Stack
 
-- [`/Users/ale/therunin31mar/Poly_HFT_1/src/index.ts`](/Users/ale/therunin31mar/Poly_HFT_1/src/index.ts) orchestrates boot, market hydration, ranking, and execution reporting.
-- [`/Users/ale/therunin31mar/Poly_HFT_1/src/execution/engine.ts`](/Users/ale/therunin31mar/Poly_HFT_1/src/execution/engine.ts) converts approved paired entries into grouped YES/NO executions with cooldown tracking.
-- [`/Users/ale/therunin31mar/Poly_HFT_1/src/risk/engine.ts`](/Users/ale/therunin31mar/Poly_HFT_1/src/risk/engine.ts) gates order flow before routing.
-- [`/Users/ale/therunin31mar/Poly_HFT_1/src/connectors/polymarket.ts`](/Users/ale/therunin31mar/Poly_HFT_1/src/connectors/polymarket.ts) normalizes market state into a consistent trading snapshot.
-- [`/Users/ale/therunin31mar/Poly_HFT_1/src/utils/logger.ts`](/Users/ale/therunin31mar/Poly_HFT_1/src/utils/logger.ts) renders the operator console and execution tape.
+- `src/index.ts` orchestrates boot, market hydration, ranking, and execution reporting.
+- `src/execution/engine.ts` converts approved paired entries into grouped YES/NO executions with cooldown tracking.
+- `src/risk/engine.ts` gates order flow before routing.
+- `src/connectors/polymarket.ts` normalizes market state into a consistent trading snapshot.
+- `src/utils/logger.ts` renders the operator console and execution tape.
 
 ## Terminal Experience
 
@@ -152,4 +152,4 @@ docs/
 
 ## Disclaimer
 
-v. 0.1.25.2026-04-03T14:53:50.700Z
+v. 0.1.25.2026-04-05T14:04:55.674Z
