@@ -1,0 +1,168 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="60" x2="1510" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06101D"/>
+      <stop offset="0.52" stop-color="#0B1730"/>
+      <stop offset="1" stop-color="#08111E"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="180" y1="120" x2="1420" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D172B"/>
+      <stop offset="1" stop-color="#091120"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="246" y1="226" x2="1310" y2="226" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#46D2FF"/>
+      <stop offset="0.5" stop-color="#4B7BFF"/>
+      <stop offset="1" stop-color="#27E8A7"/>
+    </linearGradient>
+    <linearGradient id="profit" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#173F36"/>
+      <stop offset="1" stop-color="#0E6C55"/>
+    </linearGradient>
+    <linearGradient id="cardBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0C1D37"/>
+      <stop offset="1" stop-color="#122846"/>
+    </linearGradient>
+    <filter id="shadow" x="108" y="85" width="1384" height="812" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="26"/>
+      <feGaussianBlur stdDeviation="26"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0156863 0 0 0 0 0.054902 0 0 0 0 0.145098 0 0 0 0.58 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7_2" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <circle cx="1280" cy="120" r="210" fill="#102848" fill-opacity="0.55"/>
+  <circle cx="290" cy="838" r="250" fill="#0E2744" fill-opacity="0.38"/>
+  <circle cx="1460" cy="720" r="160" fill="#0B4139" fill-opacity="0.24"/>
+
+  <g filter="url(#shadow)">
+    <rect x="150" y="110" width="1300" height="730" rx="28" fill="url(#panel)" stroke="#1D3156"/>
+    <rect x="150" y="110" width="1300" height="54" rx="28" fill="#0A1425"/>
+    <circle cx="188" cy="137" r="7" fill="#FF6178"/>
+    <circle cx="214" cy="137" r="7" fill="#FFBD59"/>
+    <circle cx="240" cy="137" r="7" fill="#2BE7B4"/>
+    <text x="280" y="143" fill="#7F95B3" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">polyhft-autotrading-v3 live terminal</text>
+
+    <rect x="214" y="192" width="1172" height="116" rx="22" fill="#0B1730" stroke="url(#accent)"/>
+    <text x="248" y="240" fill="#EAF2FF" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">✦ PolyHFT-Autotrading-V3 Command Deck</text>
+    <text x="248" y="278" fill="#87A1C2" font-family="Inter, Arial, sans-serif" font-size="18">active paired execution, positive session drift, live opportunity ranking</text>
+    <rect x="1162" y="216" width="188" height="66" rx="18" fill="url(#profit)" stroke="#1FDBA2"/>
+    <text x="1192" y="242" fill="#86F5D1" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">SESSION PNL</text>
+    <text x="1192" y="270" fill="#F2FFFB" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">+$1,842.37</text>
+
+    <rect x="214" y="336" width="210" height="92" rx="18" fill="url(#cardBlue)" stroke="#22406B"/>
+    <text x="242" y="367" fill="#51D2FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">MODE</text>
+    <text x="242" y="403" fill="#ECF4FF" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="700">live</text>
+
+    <rect x="444" y="336" width="210" height="92" rx="18" fill="url(#cardBlue)" stroke="#22406B"/>
+    <text x="472" y="367" fill="#4B7BFF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">MARKETS</text>
+    <text x="472" y="403" fill="#ECF4FF" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="700">9</text>
+
+    <rect x="674" y="336" width="210" height="92" rx="18" fill="url(#cardBlue)" stroke="#22406B"/>
+    <text x="702" y="367" fill="#2BE7B4" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">FILLS</text>
+    <text x="702" y="403" fill="#ECF4FF" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="700">27</text>
+
+    <rect x="904" y="336" width="210" height="92" rx="18" fill="url(#cardBlue)" stroke="#22406B"/>
+    <text x="932" y="367" fill="#FFBD59" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">WIN RATE</text>
+    <text x="932" y="403" fill="#ECF4FF" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="700">81.5%</text>
+
+    <rect x="1134" y="336" width="252" height="92" rx="18" fill="url(#cardBlue)" stroke="#22406B"/>
+    <text x="1162" y="367" fill="#F889AF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">NET EXPOSURE</text>
+    <text x="1162" y="403" fill="#ECF4FF" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="700">0.18 / 0.35</text>
+
+    <text x="214" y="474" fill="#4E84FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">════════════════════════════════════════════════════════════════════════════════════════════════════</text>
+    <text x="214" y="510" fill="#ECF4FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">📡 Opportunity Radar</text>
+    <text x="468" y="510" fill="#8097B5" font-family="Inter, Arial, sans-serif" font-size="16">cheapest active pair entries, ranked live</text>
+
+    <text x="228" y="552" fill="#8BA0BE" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Eligible Markets</text>
+    <text x="438" y="552" fill="#4B7BFF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">│</text>
+    <rect x="460" y="533" width="50" height="28" rx="8" fill="#0E2241"/>
+    <text x="478" y="552" fill="#F2F8FF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">9</text>
+
+    <text x="548" y="552" fill="#8BA0BE" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Open Pairs</text>
+    <text x="696" y="552" fill="#4B7BFF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">│</text>
+    <rect x="718" y="533" width="50" height="28" rx="8" fill="#11382F"/>
+    <text x="736" y="552" fill="#EFFFF8" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">4</text>
+
+    <text x="808" y="552" fill="#8BA0BE" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Realized PnL</text>
+    <text x="988" y="552" fill="#4B7BFF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">│</text>
+    <rect x="1010" y="533" width="130" height="28" rx="8" fill="#11382F"/>
+    <text x="1028" y="552" fill="#EFFFF8" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">+$984.12</text>
+
+    <text x="1174" y="552" fill="#8BA0BE" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Unrealized</text>
+    <text x="1320" y="552" fill="#4B7BFF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">│</text>
+    <rect x="1342" y="533" width="92" height="28" rx="8" fill="#11382F"/>
+    <text x="1360" y="552" fill="#EFFFF8" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">+$858</text>
+
+    <rect x="214" y="582" width="1172" height="42" rx="12" fill="#0B1730" stroke="#1E3559"/>
+    <text x="240" y="608" fill="#4E84FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">MARKET</text>
+    <text x="824" y="608" fill="#4E84FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">PAIR</text>
+    <text x="958" y="608" fill="#4E84FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">EDGE</text>
+    <text x="1084" y="608" fill="#4E84FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">24H VOL</text>
+    <text x="1248" y="608" fill="#4E84FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">STATUS</text>
+
+    <rect x="214" y="636" width="1172" height="42" rx="12" fill="#0D1C34"/>
+    <text x="240" y="662" fill="#ECF4FF" font-family="Inter, Arial, sans-serif" font-size="18">Solana Up or Down - 15 min</text>
+    <text x="826" y="662" fill="#4ED2FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">0.948</text>
+    <text x="958" y="662" fill="#2BE7B4" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">5.20%</text>
+    <text x="1084" y="662" fill="#FFBD59" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">$182K</text>
+    <rect x="1236" y="644" width="126" height="24" rx="7" fill="#11382F"/>
+    <text x="1263" y="661" fill="#DFFFF6" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700">ACTIVE + WINNING</text>
+
+    <rect x="214" y="686" width="1172" height="42" rx="12" fill="#0B1730"/>
+    <text x="240" y="712" fill="#ECF4FF" font-family="Inter, Arial, sans-serif" font-size="18">Bitcoin Up or Down - 5 min</text>
+    <text x="826" y="712" fill="#4ED2FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">0.956</text>
+    <text x="958" y="712" fill="#2BE7B4" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">4.40%</text>
+    <text x="1084" y="712" fill="#FFBD59" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">$241K</text>
+    <rect x="1236" y="694" width="108" height="24" rx="7" fill="#11382F"/>
+    <text x="1275" y="711" fill="#DFFFF6" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700">UP +$312</text>
+
+    <rect x="214" y="736" width="1172" height="42" rx="12" fill="#0D1C34"/>
+    <text x="240" y="762" fill="#ECF4FF" font-family="Inter, Arial, sans-serif" font-size="18">Dogecoin Up or Down - 15 min</text>
+    <text x="826" y="762" fill="#4ED2FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">0.949</text>
+    <text x="958" y="762" fill="#2BE7B4" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">5.10%</text>
+    <text x="1084" y="762" fill="#FFBD59" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">$64K</text>
+    <rect x="1236" y="744" width="102" height="24" rx="7" fill="#11382F"/>
+    <text x="1268" y="761" fill="#DFFFF6" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700">UP +$198</text>
+
+    <text x="214" y="820" fill="#4E84FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">════════════════════════════════════════════════════════════════════════════════════════════════════</text>
+
+    <rect x="900" y="456" width="486" height="54" rx="16" fill="#0D1B32" stroke="#1F355B"/>
+    <text x="926" y="488" fill="#ECF4FF" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">⚙ Auto-Trading Tape</text>
+    <text x="1144" y="488" fill="#819AB8" font-family="Inter, Arial, sans-serif" font-size="15">latest profitable executions</text>
+
+    <rect x="900" y="826" width="486" height="0" rx="12" fill="#000000"/>
+
+    <rect x="900" y="530" width="486" height="60" rx="16" fill="#0B1730"/>
+    <rect x="920" y="546" width="106" height="28" rx="8" fill="#10392F"/>
+    <text x="943" y="565" fill="#DBFFF5" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">ROUTED</text>
+    <text x="1044" y="566" fill="#ECF4FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">sol-up-down-15m</text>
+    <text x="1222" y="566" fill="#4ED2FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">0.948</text>
+    <text x="1302" y="566" fill="#FFBD59" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">+$418</text>
+    <text x="922" y="588" fill="#8AA1BF" font-family="Inter, Arial, sans-serif" font-size="14">YES@0.428 x50 • NO@0.520 x50 • hedged exit probability drifting in favor</text>
+
+    <rect x="900" y="598" width="486" height="60" rx="16" fill="#0D1C34"/>
+    <rect x="920" y="614" width="106" height="28" rx="8" fill="#10392F"/>
+    <text x="943" y="633" fill="#DBFFF5" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">ROUTED</text>
+    <text x="1044" y="634" fill="#ECF4FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">btc-up-down-5m</text>
+    <text x="1222" y="634" fill="#4ED2FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">0.956</text>
+    <text x="1302" y="634" fill="#FFBD59" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">+$312</text>
+    <text x="922" y="656" fill="#8AA1BF" font-family="Inter, Arial, sans-serif" font-size="14">YES@0.508 x50 • NO@0.448 x50 • queue filled inside target slippage envelope</text>
+
+    <rect x="900" y="666" width="486" height="60" rx="16" fill="#0B1730"/>
+    <rect x="920" y="682" width="106" height="28" rx="8" fill="#10392F"/>
+    <text x="943" y="701" fill="#DBFFF5" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">ROUTED</text>
+    <text x="1044" y="702" fill="#ECF4FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">doge-up-down-15m</text>
+    <text x="1222" y="702" fill="#4ED2FF" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">0.949</text>
+    <text x="1302" y="702" fill="#FFBD59" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">+$198</text>
+    <text x="922" y="724" fill="#8AA1BF" font-family="Inter, Arial, sans-serif" font-size="14">YES@0.639 x40 • NO@0.310 x40 • mark-to-mid favorable, spread harvested</text>
+
+    <rect x="900" y="734" width="486" height="76" rx="16" fill="#0D1B32" stroke="#1F355B"/>
+    <text x="922" y="760" fill="#89F6D3" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">2026-04-03T11:14:52.184Z</text>
+    <text x="922" y="790" fill="#ECF4FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">✓ Session green across all open paired positions</text>
+    <text x="922" y="814" fill="#8AA1BF" font-family="Inter, Arial, sans-serif" font-size="14">net realized edge holding, drawdown contained, fill quality inside live limits</text>
+  </g>
+</svg>

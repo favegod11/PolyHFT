@@ -1,0 +1,15 @@
+extends: base.yaml
+
+app:
+  environment: paper
+  mode: paper
+  log_level: INFO
+
+risk:
+  starting_capital: 25000.0
+  max_order_notional: 350.0
+  max_gross_exposure: 0.40
+  max_market_exposure: 0.08
+
+monitoring:
+  enable_dashboard: true

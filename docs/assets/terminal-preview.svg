@@ -1,0 +1,83 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="60" y1="40" x2="1360" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.48" stop-color="#0B1730"/>
+      <stop offset="1" stop-color="#09101B"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="160" y1="110" x2="1290" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1B32"/>
+      <stop offset="1" stop-color="#0A1223"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="256" y1="212" x2="1190" y2="212" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4FD1FF"/>
+      <stop offset="0.55" stop-color="#4B7BFF"/>
+      <stop offset="1" stop-color="#2BE7B4"/>
+    </linearGradient>
+    <filter id="shadow" x="95" y="83" width="1250" height="744" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="20"/>
+      <feGaussianBlur stdDeviation="22"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0117647 0 0 0 0 0.0392157 0 0 0 0 0.0980392 0 0 0 0.5 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="900" fill="url(#bg)"/>
+  <circle cx="1230" cy="122" r="180" fill="#10284A" fill-opacity="0.7"/>
+  <circle cx="246" cy="748" r="210" fill="#10284A" fill-opacity="0.45"/>
+  <g filter="url(#shadow)">
+    <rect x="140" y="108" width="1160" height="654" rx="26" fill="url(#panel)" stroke="#223355"/>
+    <rect x="140" y="108" width="1160" height="48" rx="26" fill="#0C1527"/>
+    <circle cx="176" cy="132" r="7" fill="#FF6178"/>
+    <circle cx="202" cy="132" r="7" fill="#FFBD59"/>
+    <circle cx="228" cy="132" r="7" fill="#2BE7B4"/>
+    <text x="270" y="138" fill="#8195AE" font-family="SFMono-Regular, Menlo, monospace" font-size="16">polyhft-autotrading-v3 command deck</text>
+
+    <rect x="210" y="190" width="1020" height="112" rx="18" fill="#0B1730" stroke="url(#accent)"/>
+    <text x="248" y="236" fill="#E8F1FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">✦ PolyHFT-Autotrading-V3 Command Deck</text>
+    <text x="248" y="271" fill="#8BA0BE" font-family="Inter, Arial, sans-serif" font-size="18">paired-execution runtime • live parity scanner • low-latency console</text>
+
+    <rect x="248" y="330" width="202" height="76" rx="16" fill="#0D1A31" stroke="#1E395E"/>
+    <text x="274" y="360" fill="#52D2FF" font-family="SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700">MODE</text>
+    <text x="274" y="391" fill="#E8F1FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">paper</text>
+
+    <rect x="472" y="330" width="202" height="76" rx="16" fill="#0D1A31" stroke="#1E395E"/>
+    <text x="498" y="360" fill="#4B7BFF" font-family="SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700">MARKETS</text>
+    <text x="498" y="391" fill="#E8F1FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">3</text>
+
+    <rect x="696" y="330" width="202" height="76" rx="16" fill="#0D1A31" stroke="#1E395E"/>
+    <text x="722" y="360" fill="#2BE7B4" font-family="SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700">STRATEGIES</text>
+    <text x="722" y="391" fill="#E8F1FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">5</text>
+
+    <rect x="920" y="330" width="272" height="76" rx="16" fill="#0D1A31" stroke="#1E395E"/>
+    <text x="946" y="360" fill="#FFBD59" font-family="SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700">STACK</text>
+    <text x="946" y="391" fill="#E8F1FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">MM • StatArb • Momentum • MR • Meta</text>
+
+    <text x="214" y="462" fill="#4B7BFF" font-family="SFMono-Regular, Menlo, monospace" font-size="16">────────────────────────────────────────────────────────────────</text>
+    <text x="214" y="493" fill="#E8F1FF" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">🧭 Runtime Snapshot</text>
+    <text x="454" y="493" fill="#8195AE" font-family="Inter, Arial, sans-serif" font-size="16">typed config + strategy bootstrap</text>
+
+    <text x="230" y="545" fill="#8195AE" font-family="SFMono-Regular, Menlo, monospace" font-size="18">Mode</text>
+    <text x="396" y="545" fill="#4B7BFF" font-family="SFMono-Regular, Menlo, monospace" font-size="18">│</text>
+    <text x="426" y="545" fill="#E8F1FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">paper</text>
+
+    <text x="230" y="587" fill="#8195AE" font-family="SFMono-Regular, Menlo, monospace" font-size="18">Loop Interval</text>
+    <text x="396" y="587" fill="#4B7BFF" font-family="SFMono-Regular, Menlo, monospace" font-size="18">│</text>
+    <text x="426" y="587" fill="#E8F1FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">250 ms</text>
+
+    <text x="230" y="629" fill="#8195AE" font-family="SFMono-Regular, Menlo, monospace" font-size="18">Tracked Markets</text>
+    <text x="396" y="629" fill="#4B7BFF" font-family="SFMono-Regular, Menlo, monospace" font-size="18">│</text>
+    <text x="426" y="629" fill="#E8F1FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">3</text>
+
+    <text x="230" y="671" fill="#8195AE" font-family="SFMono-Regular, Menlo, monospace" font-size="18">Strategies</text>
+    <text x="396" y="671" fill="#4B7BFF" font-family="SFMono-Regular, Menlo, monospace" font-size="18">│</text>
+    <text x="426" y="671" fill="#E8F1FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">5</text>
+
+    <rect x="210" y="706" width="520" height="32" rx="10" fill="#0E1E37"/>
+    <text x="228" y="727" fill="#8195AE" font-family="SFMono-Regular, Menlo, monospace" font-size="15">2026-04-02T19:30:00.000Z</text>
+    <text x="460" y="727" fill="#2BE7B4" font-family="SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700">✓ SUCCESS</text>
+    <text x="575" y="727" fill="#E8F1FF" font-family="Inter, Arial, sans-serif" font-size="15">PolyHFT-Autotrading-V3 runtime live.</text>
+  </g>
+</svg>

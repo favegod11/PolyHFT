@@ -1,0 +1,181 @@
+app:
+  name: PolyHFT-Autotrading-V3
+  environment: production
+  mode: paper
+  log_level: INFO
+  loop_interval_ms: 250
+  dashboard_refresh_ms: 1000
+  max_signals_per_cycle: 12
+
+strategy:
+  pair_cost_cap: 0.98
+  default_order_size: 25
+
+exchange:
+  host: https://clob.polymarket.com
+  gamma_host: https://gamma-api.polymarket.com
+  websocket_url: wss://ws-subscriptions-clob.polymarket.com/ws/market
+  chain_id: 137
+  quote_token: USDC
+  poll_interval_ms: 500
+  markets:
+    - asset: BTC
+      slug: bitcoin-up-or-down-5-min
+      market_type: up_down
+      interval_label: 5 min
+      prompt: Bitcoin Up or Down - 5 min
+      pair_group: btc-up-down-5m
+      reference_price: 84250
+      yes_token_id: btc-up-5m
+      no_token_id: btc-down-5m
+      yes_ask: 0.51
+      no_ask: 0.45
+      yes_bid: 0.50
+      no_bid: 0.44
+      volume_label: "$142K Vol."
+    - asset: ETH
+      slug: ethereum-up-or-down-5-min
+      market_type: up_down
+      interval_label: 5 min
+      prompt: Ethereum Up or Down - 5 min
+      pair_group: eth-up-down-5m
+      reference_price: 3180
+      yes_token_id: eth-up-5m
+      no_token_id: eth-down-5m
+      yes_ask: 0.51
+      no_ask: 0.46
+      yes_bid: 0.50
+      no_bid: 0.45
+      volume_label: "$48K Vol."
+    - asset: SOL
+      slug: solana-up-or-down-15-min
+      market_type: up_down
+      interval_label: 15 min
+      prompt: Solana Up or Down - 15 min
+      pair_group: sol-up-down-15m
+      reference_price: 78
+      yes_token_id: sol-up-15m
+      no_token_id: sol-down-15m
+      yes_ask: 0.43
+      no_ask: 0.52
+      yes_bid: 0.42
+      no_bid: 0.51
+      volume_label: "$91K Vol."
+    - asset: SOL
+      slug: solana-above-80-on-april-2
+      market_type: above_below
+      interval_label: April 2
+      prompt: Solana above 80 on April 2?
+      pair_group: sol-above-80-apr2
+      reference_price: 78
+      threshold: 80
+      yes_token_id: sol-above-80-yes
+      no_token_id: sol-above-80-no
+      yes_ask: 0.20
+      no_ask: 0.78
+      yes_bid: 0.19
+      no_bid: 0.77
+      volume_label: "$33K Vol."
+    - asset: SOL
+      slug: solana-hit-price-april-2-80
+      market_type: hit_price
+      interval_label: April 2
+      prompt: What price will Solana hit on April 2?
+      pair_group: sol-hit-80-apr2
+      reference_price: 78
+      threshold: 80
+      yes_token_id: sol-hit-80-yes
+      no_token_id: sol-hit-80-no
+      yes_ask: 0.62
+      no_ask: 0.36
+      yes_bid: 0.61
+      no_bid: 0.35
+      volume_label: "$384K Vol."
+    - asset: SOL
+      slug: solana-price-range-april-2-70-80
+      market_type: price_range
+      interval_label: April 2
+      prompt: Solana price on April 2?
+      pair_group: sol-range-70-80-apr2
+      reference_price: 78
+      range:
+        low: 70
+        high: 80
+      yes_token_id: sol-range-70-80-yes
+      no_token_id: sol-range-70-80-no
+      yes_ask: 0.81
+      no_ask: 0.17
+      yes_bid: 0.80
+      no_bid: 0.16
+      volume_label: "$126K Vol."
+    - asset: XRP
+      slug: xrp-up-or-down-15-min
+      market_type: up_down
+      interval_label: 15 min
+      prompt: XRP Up or Down - 15 min
+      pair_group: xrp-up-down-15m
+      reference_price: 1.98
+      yes_token_id: xrp-up-15m
+      no_token_id: xrp-down-15m
+      yes_ask: 0.43
+      no_ask: 0.54
+      yes_bid: 0.42
+      no_bid: 0.53
+      volume_label: "$27K Vol."
+    - asset: DOGE
+      slug: dogecoin-up-or-down-15-min
+      market_type: up_down
+      interval_label: 15 min
+      prompt: Dogecoin Up or Down - 15 min
+      pair_group: doge-up-down-15m
+      reference_price: 0.21
+      yes_token_id: doge-up-15m
+      no_token_id: doge-down-15m
+      yes_ask: 0.64
+      no_ask: 0.31
+      yes_bid: 0.63
+      no_bid: 0.30
+      volume_label: "$18K Vol."
+    - asset: BNB
+      slug: bnb-up-or-down-15-min
+      market_type: up_down
+      interval_label: 15 min
+      prompt: BNB Up or Down - 15 min
+      pair_group: bnb-up-down-15m
+      reference_price: 602
+      yes_token_id: bnb-up-15m
+      no_token_id: bnb-down-15m
+      yes_ask: 0.46
+      no_ask: 0.50
+      yes_bid: 0.45
+      no_bid: 0.49
+      volume_label: "$24K Vol."
+
+risk:
+  starting_capital: 100000.0
+  max_gross_exposure: 0.75
+  max_net_exposure: 0.35
+  max_market_exposure: 0.15
+  max_order_notional: 1500.0
+  min_order_notional: 25.0
+  max_daily_loss: 0.06
+  max_drawdown: 0.10
+  target_volatility: 0.18
+  max_kelly_fraction: 0.15
+  min_confidence: 0.55
+  fee_bps: 3.5
+  slippage_bps: 6.0
+  circuit_breaker_cooldown_s: 300
+
+backtesting:
+  starting_equity: 100000.0
+  fee_bps: 3.5
+  slippage_bps: 6.0
+  bars_per_year: 105120
+  max_signals_per_bar: 12
+  win_rate_horizon_bars: 3
+
+monitoring:
+  enable_dashboard: true
+  enable_json_logs: false
+  heartbeat_seconds: 10

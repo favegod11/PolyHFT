@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">PolyHFT-Autotrading-V3 Drawdown Placeholder</title>
+  <desc id="desc">A stylized placeholder drawdown chart for repository documentation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1219"/>
+      <stop offset="100%" stop-color="#161c26"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff8566" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#ff8566" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" rx="28" fill="url(#bg)"/>
+  <g opacity="0.14" stroke="#c7d1dc" stroke-width="1">
+    <line x1="120" y1="120" x2="120" y2="540"/>
+    <line x1="120" y1="540" x2="1170" y2="540"/>
+    <line x1="120" y1="456" x2="1170" y2="456"/>
+    <line x1="120" y1="372" x2="1170" y2="372"/>
+    <line x1="120" y1="288" x2="1170" y2="288"/>
+    <line x1="120" y1="204" x2="1170" y2="204"/>
+  </g>
+  <text x="120" y="78" fill="#f6f7fb" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="28">PolyHFT-Autotrading-V3 Risk Envelope</text>
+  <text x="120" y="108" fill="#a3b0be" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Drawdown Chart Placeholder</text>
+  <path
+    d="M120 540 L180 540 L240 522 L300 516 L360 500 L420 468 L480 474 L540 430 L600 402 L660 420 L720 384 L780 342 L840 322 L900 334 L960 304 L1020 270 L1080 252 L1140 236 L1170 224 L1170 540 Z"
+    fill="url(#area)"
+  />
+  <polyline
+    fill="none"
+    stroke="#ff8566"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    points="120,540 180,540 240,522 300,516 360,500 420,468 480,474 540,430 600,402 660,420 720,384 780,342 840,322 900,334 960,304 1020,270 1080,252 1140,236 1170,224"
+  />
+  <g fill="#f6f7fb" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <text x="58" y="545">0%</text>
+    <text x="45" y="461">-3%</text>
+    <text x="45" y="377">-6%</text>
+    <text x="37" y="293">-9%</text>
+    <text x="29" y="209">-12%</text>
+  </g>
+  <rect x="886" y="84" width="244" height="108" rx="16" fill="#1a202b" opacity="0.95"/>
+  <text x="914" y="118" fill="#a3b0be" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Observed Max DD</text>
+  <text x="914" y="152" fill="#f6f7fb" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="30">4.8% - 11.2%</text>
+  <text x="914" y="178" fill="#ff9f82" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Risk placeholder</text>
+</svg>

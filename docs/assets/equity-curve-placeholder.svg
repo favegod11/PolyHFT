@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">PolyHFT-Autotrading-V3 Equity Curve Placeholder</title>
+  <desc id="desc">A stylized placeholder equity curve chart for repository documentation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09111d"/>
+      <stop offset="100%" stop-color="#101f33"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39d0c8"/>
+      <stop offset="100%" stop-color="#8cf2c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" rx="28" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#9fb5cf" stroke-width="1">
+    <line x1="120" y1="120" x2="120" y2="540"/>
+    <line x1="120" y1="540" x2="1170" y2="540"/>
+    <line x1="120" y1="455" x2="1170" y2="455"/>
+    <line x1="120" y1="370" x2="1170" y2="370"/>
+    <line x1="120" y1="285" x2="1170" y2="285"/>
+    <line x1="120" y1="200" x2="1170" y2="200"/>
+  </g>
+  <text x="120" y="78" fill="#eef4ff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="28">PolyHFT-Autotrading-V3 Research Portfolio</text>
+  <text x="120" y="108" fill="#8ea5c2" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Equity Curve Placeholder</text>
+  <polyline
+    fill="none"
+    stroke="url(#line)"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    points="120,520 190,505 260,500 330,472 400,446 470,432 540,385 610,360 680,338 750,318 820,274 890,240 960,216 1030,172 1100,140 1170,116"
+  />
+  <g fill="#eef4ff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <text x="70" y="545">$0</text>
+    <text x="54" y="460">$25k</text>
+    <text x="54" y="375">$50k</text>
+    <text x="54" y="290">$75k</text>
+    <text x="45" y="205">$100k</text>
+    <text x="1100" y="585">2024</text>
+    <text x="1160" y="585">2025</text>
+  </g>
+  <rect x="880" y="84" width="250" height="108" rx="16" fill="#0d1726" opacity="0.92"/>
+  <text x="910" y="118" fill="#8ea5c2" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Annualized Return</text>
+  <text x="910" y="152" fill="#eef4ff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="30">180% - 320%</text>
+  <text x="910" y="178" fill="#39d0c8" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Research placeholder</text>
+</svg>

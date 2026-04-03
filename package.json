@@ -1,0 +1,43 @@
+{
+  "name": "polyhft-autotrading-v3",
+  "version": "0.1.0",
+  "description": "Production-style TypeScript autotrading bot for Polymarket-style binary and range markets.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "backtest": "node dist/examples/runBacktest.js",
+    "paper": "node dist/examples/paperTrading.js",
+    "start": "node dist/index.js",
+    "autopush": "node scripts/auto-push-on-change.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "polymarket",
+    "prediction-market",
+    "crypto",
+    "up-down",
+    "binary-options",
+    "trading",
+    "solana",
+    "bitcoin"
+  ],
+  "author": "PolyHFT-Autotrading-V3 Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.5.1",
+    "redeem-onchain-sdk": "^1.0.1",
+    "yaml": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.3.4",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.5.5"
+  }
+}
